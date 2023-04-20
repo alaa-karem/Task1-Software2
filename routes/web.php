@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/students', function () {
     $arr = [
-        'students' => ['Alaa', 'Hagar', 'Asmaa', 'Shaimaa', 'Mona', 'Hoda']
+        'students' => ['Alaa', 'Aya', 'Hana', 'Mohamed', 'Ali', 'Mariam']
     ];
     return view('students',$arr);
 });
